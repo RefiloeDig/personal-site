@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612" height="760" viewBox="0 0 612 760">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="365" width="395" height="395" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="headphones-alt-solid" x="178" y="250" width="370" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_music" data-name="icon/music" transform="translate(-604 -293)">
+    <g transform="matrix(1, 0, 0, 1, 604, 293)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="188.5" cy="188.5" r="188.5" transform="translate(2 371)" fill="#3bc4f8"/>
+    </g>
+    <g id="Group_2" data-name="Group 2">
+      <path id="headphones-alt-solid-2" data-name="headphones-alt-solid" d="M160,288H144a64.053,64.053,0,0,0-64,64.12v63.76A64.059,64.059,0,0,0,144,480h16a32.036,32.036,0,0,0,32-32.06V320.06A32.03,32.03,0,0,0,160,288Zm208,0H352a32.03,32.03,0,0,0-32,32.06V447.94A32.036,32.036,0,0,0,352,480h16a64.059,64.059,0,0,0,64-64.12V352.12A64.059,64.059,0,0,0,368,288ZM256,32C112.91,32,4.57,151.13,0,288V400a16,16,0,0,0,16,16H32a16,16,0,0,0,16-16V288C48,173.33,141.33,80.2,256,80.18,370.67,80.2,464,173.33,464,288V400a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V288C507.43,151.13,399.09,32,256,32Z" transform="translate(704 261)"/>
+      <g transform="matrix(1, 0, 0, 1, 604, 293)" filter="url(#headphones-alt-solid)">
+        <path id="headphones-alt-solid-3" data-name="headphones-alt-solid" d="M160,288H144a64.053,64.053,0,0,0-64,64.12v63.76A64.059,64.059,0,0,0,144,480h16a32.036,32.036,0,0,0,32-32.06V320.06A32.03,32.03,0,0,0,160,288Zm208,0H352a32.03,32.03,0,0,0-32,32.06V447.94A32.036,32.036,0,0,0,352,480h16a64.059,64.059,0,0,0,64-64.12V352.12A64.059,64.059,0,0,0,368,288Z" transform="translate(100 -32)" fill="#3bc4f8"/>
+      </g>
+    </g>
+    <text id="music" transform="translate(778 908)" font-size="134" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">music</tspan></text>
+  </g>
+</svg>
