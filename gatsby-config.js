@@ -5,6 +5,7 @@ module.exports = {
     description: 'My portfolio',
   },
   plugins: [
+    'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -24,14 +25,3 @@ module.exports = {
     `gatsby-plugin-sharp`,
   ],
 }
-
-plugins: [
-  {
-    resolve: 'gatsby-plugin-react-svg',
-    options: {
-      rule: {
-        include: /C:\Users\kroni\gatsby-starter-dimension\src\images\logos.svg/,
-      },
-    },
-  },
-] // This is used to insert svg for the logo. need to figure out to display it.

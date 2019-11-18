@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import '../css/global.css'
 
 import '../assets/scss/main.scss'
 
@@ -12,7 +13,7 @@ const Layout = ({ children, location }) => {
     content = <div>{children}</div>
   } else {
     content = (
-      <div id="wrapper" className="page">
+      <div id='wrapper' className='page'>
         <div>{children}</div>
       </div>
     )
@@ -38,7 +39,7 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
-            <html lang="en" />
+            <html lang='en' />
           </Helmet>
           {content}
         </>
