@@ -3,22 +3,27 @@ import PropTypes from 'prop-types'
 import pic04 from '../assets/images/logos.svg'
 
 const Header = props => (
-  <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span img src={pic04} alt=""></span>
+  <header id='header' style={props.timeout ? { display: 'none' } : {}}>
+    <div className='logo'>
+      <span img src={pic04} alt=''></span>
     </div>
-    <div className="content">
-      <div className="inner">
+    <div className='content'>
+      <div className='inner'>
         <h1>Refiloe Digoamaye</h1>
-        <p>Keeping it simple since 1992. </p>
-        <p> Click the buttons below to learn more about my interests. Go.</p>
+        <h2 className='-pt-5 text-2xl tracking-tight normal-case'>
+          Keeping it simple since 1992.
+        </h2>
+        <h2 className='-pt-5 text-2xl tracking-tight normal-case'>
+          Click the <span className='text-orange-400'> buttons </span> below to
+          learn more about my interests. Go.
+        </h2>
       </div>
     </div>
     <nav>
       <ul>
         <li>
           <a
-            href="javascript:;"
+            href='javascript:;'
             onClick={() => {
               props.onOpenArticle('intro')
             }}
@@ -28,7 +33,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href='javascript:;'
             onClick={() => {
               props.onOpenArticle('work')
             }}
@@ -38,17 +43,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
+            href='javascript:;'
             onClick={() => {
               props.onOpenArticle('contact')
             }}
