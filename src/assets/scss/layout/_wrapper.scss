@@ -31,7 +31,7 @@
   }
 
   @include breakpoint(xsmall) {
-    padding: 1rem;
+    padding: 0rem 2rem 0.5rem;
   }
 
   &.page {

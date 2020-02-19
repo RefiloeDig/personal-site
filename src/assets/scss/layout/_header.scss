@@ -35,23 +35,23 @@
     rgba(0, 0, 0, 0) 55%
   );
   max-width: 100%;
-  text-align: center;
+  text-align: left;
 
   > * {
     @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
     position: relative;
     margin-top: 3.5rem;
 
-    &:before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: calc(-3.5rem - 1px);
-      left: calc(50% - #{_size(border-width) * 1});
-      width: _size(border-width);
-      height: calc(3.5rem + 1px);
-      background: _palette(border);
-    }
+    // &:before {
+    //   content: '';
+    //   display: block;
+    //   position: absolute;
+    //   top: calc(-3.5rem - 1px);
+    //   left: calc(50% - #{_size(border-width) * 1});
+    //   width: _size(border-width);
+    //   height: calc(3.5rem + 1px);
+    //   background: _palette(border);
+    // }
   }
 
   > :first-child {
@@ -61,7 +61,6 @@
       display: none;
     }
   }
-
   .logo {
     z-index: 10;
     width: 5.5rem;
@@ -85,6 +84,7 @@
     border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
     max-width: 100%;
+    border-color: #9F9F9F;
 
     .inner {
       @include vendor(
@@ -99,6 +99,7 @@
       padding: 3rem 2rem;
       max-height: 40rem;
       overflow: hidden;
+
 
       > :last-child {
         margin-bottom: 0;
@@ -124,10 +125,13 @@
       padding-left: 0;
       border: solid _size(border-width) _palette(border);
       border-radius: _size(border-radius);
+      border-color: #9F9F9F;
+      text-align: center;
 
       li {
         padding-left: 0;
         border-left: solid _size(border-width) _palette(border);
+        border-color: #9F9F9F;
 
         &:first-child {
           border-left: 0;
@@ -143,9 +147,11 @@
           letter-spacing: _font(letter-spacing);
           font-size: 0.8rem;
           border-bottom: 0;
+          
 
           &:hover {
-            background-color: _palette(border-bg);
+            background-color: #f6ad55;
+            color: f3f3f3;
           }
 
           &:active {
@@ -165,6 +171,7 @@
         width: _size(border-width);
         height: 100%;
         background: _palette(border);
+        
       }
 
       ul {
@@ -261,6 +268,7 @@
         li {
           border-left: 0;
           border-top: solid _size(border-width) _palette(border);
+          border-color: #9F9F9F;
 
           &:first-child {
             border-top: 0;

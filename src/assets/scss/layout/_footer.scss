@@ -37,4 +37,15 @@
   .body.is-loading & {
     opacity: 0;
   }
+a {
+          &:hover {
+            background-color: #f6ad55;
+            color: f3f3f3;
+          }
+
+          &:active {
+            background-color: _palette(border-bg-alt);
+          }
+        }
+
 }

@@ -35,6 +35,10 @@
     border-radius: _size(border-radius);
     opacity: 0;
 
+    .work-image {
+      padding: 5rem;
+    }
+
     &.timeout {
       display: none;
     }
@@ -115,4 +119,14 @@
       @include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
     }
   }
+  a {
+          &:hover {
+            background-color: #f6ad55;
+            color: f3f3f3;
+          }
+
+          &:active {
+            background-color: _palette(border-bg-alt);
+          }
+        }
 }
